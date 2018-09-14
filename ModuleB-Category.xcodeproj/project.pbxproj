@@ -14,6 +14,7 @@
 		9C04B3FE214B56CB00C4192C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C04B3FD214B56CB00C4192C /* Assets.xcassets */; };
 		9C04B401214B56CB00C4192C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C04B3FF214B56CB00C4192C /* LaunchScreen.storyboard */; };
 		9C04B404214B56CB00C4192C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04B403214B56CB00C4192C /* main.m */; };
+		9C04B40D214B5A3F00C4192C /* ComponentScheduler+ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04B40C214B5A3F00C4192C /* ComponentScheduler+ModuleB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9C04B400214B56CB00C4192C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C04B402214B56CB00C4192C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C04B403214B56CB00C4192C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C04B40B214B5A3F00C4192C /* ComponentScheduler+ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComponentScheduler+ModuleB.h"; sourceTree = "<group>"; };
+		9C04B40C214B5A3F00C4192C /* ComponentScheduler+ModuleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ComponentScheduler+ModuleB.m"; sourceTree = "<group>"; };
 		B1B458D92E55797A4308C4EF /* libPods-ModuleB-Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleB-Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,6 +85,7 @@
 		9C04B3F3214B56CA00C4192C /* ModuleB-Category */ = {
 			isa = PBXGroup;
 			children = (
+				9C04B40A214B594500C4192C /* Category */,
 				9C04B3F4214B56CA00C4192C /* AppDelegate.h */,
 				9C04B3F5214B56CA00C4192C /* AppDelegate.m */,
 				9C04B3F7214B56CA00C4192C /* ViewController.h */,
@@ -93,6 +97,15 @@
 				9C04B403214B56CB00C4192C /* main.m */,
 			);
 			path = "ModuleB-Category";
+			sourceTree = "<group>";
+		};
+		9C04B40A214B594500C4192C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9C04B40B214B5A3F00C4192C /* ComponentScheduler+ModuleB.h */,
+				9C04B40C214B5A3F00C4192C /* ComponentScheduler+ModuleB.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C04B40D214B5A3F00C4192C /* ComponentScheduler+ModuleB.m in Sources */,
 				9C04B3F9214B56CA00C4192C /* ViewController.m in Sources */,
 				9C04B404214B56CB00C4192C /* main.m in Sources */,
 				9C04B3F6214B56CA00C4192C /* AppDelegate.m in Sources */,

@@ -1,3 +1,14 @@
-PODFILE CHECKSUM: 0593cfe50586b7113739bb328bcb612683774f90
+PODS:
+  - ComponentScheduler (0.0.1):
+    - ComponentScheduler/Code (= 0.0.1)
+  - ComponentScheduler/Code (0.0.1)
+
+DEPENDENCIES:
+  - ComponentScheduler
+
+SPEC CHECKSUMS:
+  ComponentScheduler: 580e2ae664da24d53d90d8f2143719ffbf1b7710
+
+PODFILE CHECKSUM: 450265a3f8ee7649ed27c5a47b94b5567ea56e3e
 
 COCOAPODS: 1.4.0
