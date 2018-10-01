@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "ModuleB-Category/Category/**/*.{h,m}"
 
-  s.dependency 'ComponentScheduler'
+  s.dependency 'CTMediator'
 
 end
