@@ -10,6 +10,8 @@ target 'ModuleB-Category' do
 
   # Pods for ModuleB-Category
   
-  pod 'ComponentScheduler'
+#  pod 'ComponentScheduler'
+
+   pod 'CTMediator'
 
 end

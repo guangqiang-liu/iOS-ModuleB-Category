@@ -1,14 +1,12 @@
 PODS:
-  - ComponentScheduler (0.0.1):
-    - ComponentScheduler/Code (= 0.0.1)
-  - ComponentScheduler/Code (0.0.1)
+  - CTMediator (25)
 
 DEPENDENCIES:
-  - ComponentScheduler
+  - CTMediator
 
 SPEC CHECKSUMS:
-  ComponentScheduler: 580e2ae664da24d53d90d8f2143719ffbf1b7710
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
 
-PODFILE CHECKSUM: 450265a3f8ee7649ed27c5a47b94b5567ea56e3e
+PODFILE CHECKSUM: b047ceb362e0dc7ec669021d3265d6dcb5eb7b0d
 
 COCOAPODS: 1.4.0
